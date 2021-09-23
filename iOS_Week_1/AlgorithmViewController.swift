@@ -43,6 +43,8 @@ class AlgorithmViewController: UIViewController {
     
     @IBAction func mergeArrayAction(_ sender: Any) {
         // call required test function
+        var arr = [1,2,3,0,0,0]
+        algorithmManager.merge(&arr, 3, [2,5,6], 3)
     }
     
     @IBAction func missingNumberAction(_ sender: Any) {
