@@ -78,9 +78,22 @@ class AlgoruthmManager: AlgorithmProtocol {
         
     }
     
-//    func containsDuplicate(_ nums: [Int]) -> Bool {
-//            
-//    }
+    func containsDuplicate(_ nums: [Int]) -> Bool {
+        for x in nums {
+            let mapped = nums.map{$0 - x == 0}
+            let filtered = mapped.filter{$0 == true}
+
+            if filtered.count >= 2 {
+                print("has duplicate")
+                return true
+            }
+            else {
+                print("doesnt have duplicate")
+                return false
+            }
+        }
+        return false
+    }
     
     // MARK: - Merge Sorted Array
     /*
