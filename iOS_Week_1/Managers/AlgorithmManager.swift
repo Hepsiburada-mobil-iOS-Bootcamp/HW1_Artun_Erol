@@ -142,9 +142,22 @@ class AlgoruthmManager: AlgorithmProtocol {
         
     }
     
-//    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-//
-//    }
+    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+        
+        var array = [Int]()
+        
+        for x in nums1 {
+            for y in nums2{
+                if x == y {
+                    array.append(y)
+                    break
+                }
+                continue
+            }
+        }
+        
+        return array
+    }
     
     // MARK: - Missing Number
     /*

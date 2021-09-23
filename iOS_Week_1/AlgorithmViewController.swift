@@ -53,6 +53,7 @@ class AlgorithmViewController: UIViewController {
     
     @IBAction func arrayIntersectionAction(_ sender: Any) {
         // call required test function
+        print(algorithmManager.intersect([1,2,2,1], [2,2]))
     }
     
 }
