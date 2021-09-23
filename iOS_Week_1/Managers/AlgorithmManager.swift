@@ -42,9 +42,15 @@ class AlgoruthmManager: AlgorithmProtocol {
         
     }
     
-//    func isPalindrome(_ s: String) -> Bool {
-//
-//    }
+    func isPalindrome(_ s: String) -> Bool {
+        let reversed = String().compactReverse(s).lowercased()
+        let forward = String().mergingString(s).lowercased()
+
+        if reversed == forward {
+            return true
+        }
+        return false
+    }
     
     // MARK: - Valid Anagram
     /*

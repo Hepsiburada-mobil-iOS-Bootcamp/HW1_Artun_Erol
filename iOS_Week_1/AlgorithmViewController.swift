@@ -9,9 +9,9 @@ import UIKit
 
 class AlgorithmViewController: UIViewController {
     
-    private var algorithmManager: AlgorithmProtocol!
-
-    convenience init(algorithmManager: AlgorithmProtocol) {
+    private var algorithmManager = AlgoruthmManager()
+    
+    convenience init(algorithmManager: AlgoruthmManager) {
         self.init()
         self.algorithmManager = algorithmManager
     }
@@ -28,6 +28,7 @@ class AlgorithmViewController: UIViewController {
     
     @IBAction func isPalindromAction(_ sender: Any) {
         // call required test function
+        print(algorithmManager.isPalindrome("A man, a plan, a canal: Panama"))
     }
     
     @IBAction func AnagramAction(_ sender: Any) {
