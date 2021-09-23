@@ -23,7 +23,7 @@ class AlgorithmViewController: UIViewController {
     }
     
     @IBAction func twoSumAction(_ sender: Any) {
-        // algorithmManager.twoSumTest()
+         algorithmManager.twoSumTest()
     }
     
     @IBAction func isPalindromAction(_ sender: Any) {
@@ -33,10 +33,12 @@ class AlgorithmViewController: UIViewController {
     
     @IBAction func AnagramAction(_ sender: Any) {
         // call required test function
+        print(algorithmManager.isAnagram("anagram", "nagaram"))
     }
     
     @IBAction func duplicationAction(_ sender: Any) {
         // call required test function
+        print(algorithmManager.containsDuplicate([1,2,3,4,1,3,3,2,1,5]))
     }
     
     @IBAction func mergeArrayAction(_ sender: Any) {
