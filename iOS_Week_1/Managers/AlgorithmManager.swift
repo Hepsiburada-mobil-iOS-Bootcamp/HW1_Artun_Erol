@@ -56,9 +56,18 @@ class AlgoruthmManager: AlgorithmProtocol {
         
     }
     
-//    func isAnagram(_ s: String, _ t: String) -> Bool {
-//
-//    }
+    func isAnagram(_ s: String, _ t: String) -> Bool {
+
+        let set = Set(s)
+        let set2 = Set(t)
+
+        if set.sorted() == set2.sorted() {
+            return true
+        }
+
+        return false
+
+    }
     
     // MARK: - Contains Duplicate
     /*
