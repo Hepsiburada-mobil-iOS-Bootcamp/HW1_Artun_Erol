@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8347C36926FDC14300431029 /* PokemonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347C36826FDC14300431029 /* PokemonClass.swift */; };
+		8347C37626FDC17C00431029 /* CatchingEnvironmentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347C37526FDC17C00431029 /* CatchingEnvironmentClass.swift */; };
+		8347C37B26FDC19900431029 /* PokemonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347C37A26FDC19900431029 /* PokemonStruct.swift */; };
+		8347C38026FDC1D500431029 /* CatchingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8347C37F26FDC1D500431029 /* CatchingEnum.swift */; };
 		834D6AAB26FBB84C007A5809 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D6AAA26FBB84B007A5809 /* Extensions.swift */; };
 		A7CF0A4126F7BEBF0049FA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0A4026F7BEBF0049FA45 /* AppDelegate.swift */; };
 		A7CF0A4326F7BEBF0049FA45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0A4226F7BEBF0049FA45 /* SceneDelegate.swift */; };
@@ -43,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8347C36826FDC14300431029 /* PokemonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonClass.swift; sourceTree = "<group>"; };
+		8347C37526FDC17C00431029 /* CatchingEnvironmentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchingEnvironmentClass.swift; sourceTree = "<group>"; };
+		8347C37A26FDC19900431029 /* PokemonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonStruct.swift; sourceTree = "<group>"; };
+		8347C37F26FDC1D500431029 /* CatchingEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchingEnum.swift; sourceTree = "<group>"; };
 		834D6AAA26FBB84B007A5809 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A7CF0A3D26F7BEBF0049FA45 /* iOS_Week_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Week_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CF0A4026F7BEBF0049FA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8347C38C26FDD3C000431029 /* PokemonModules */ = {
+			isa = PBXGroup;
+			children = (
+				8347C36826FDC14300431029 /* PokemonClass.swift */,
+				8347C37526FDC17C00431029 /* CatchingEnvironmentClass.swift */,
+				8347C37A26FDC19900431029 /* PokemonStruct.swift */,
+				8347C37F26FDC1D500431029 /* CatchingEnum.swift */,
+			);
+			path = PokemonModules;
+			sourceTree = "<group>";
+		};
 		A7CF0A3426F7BEBF0049FA45 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +134,7 @@
 		A7CF0A3F26F7BEBF0049FA45 /* iOS_Week_1 */ = {
 			isa = PBXGroup;
 			children = (
+				8347C38C26FDD3C000431029 /* PokemonModules */,
 				A7CF0A7B26F7CDC20049FA45 /* Modules */,
 				A7CF0A7626F7C5DE0049FA45 /* Managers */,
 				A7CF0A4026F7BEBF0049FA45 /* AppDelegate.swift */,
@@ -298,12 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8347C36926FDC14300431029 /* PokemonClass.swift in Sources */,
 				A7CF0A7526F7C0680049FA45 /* AlgorithmViewController.swift in Sources */,
 				A7CF0A7826F7C5EB0049FA45 /* AlgorithmManager.swift in Sources */,
+				8347C37626FDC17C00431029 /* CatchingEnvironmentClass.swift in Sources */,
 				A7CF0A4526F7BEBF0049FA45 /* ViewController.swift in Sources */,
 				A7CF0A4B26F7BEBF0049FA45 /* iOS_Week_1.xcdatamodeld in Sources */,
 				A7CF0A8326F7CED40049FA45 /* SampleStruct.swift in Sources */,
 				A7CF0A8126F7CECE0049FA45 /* SampleClass.swift in Sources */,
+				8347C38026FDC1D500431029 /* CatchingEnum.swift in Sources */,
+				8347C37B26FDC19900431029 /* PokemonStruct.swift in Sources */,
 				A7CF0A4126F7BEBF0049FA45 /* AppDelegate.swift in Sources */,
 				A7CF0A4326F7BEBF0049FA45 /* SceneDelegate.swift in Sources */,
 				A7CF0A8526F7CFD60049FA45 /* SampleEnum.swift in Sources */,

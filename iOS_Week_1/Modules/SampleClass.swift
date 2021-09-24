@@ -23,6 +23,6 @@ class SampleClass {
     }
     
     func display() {
-        print("Your name is \(name) \(surName)")
+//        print("Your name is \(name) \(surName)")
     }
 }
