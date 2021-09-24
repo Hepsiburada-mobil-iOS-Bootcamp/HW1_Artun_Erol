@@ -1,4 +1,6 @@
 # iOS Bootcamp Week1
+# Please check the branches by going to Insights-->Network menu.
+# In order to play Pokemon game, you need to download the project and run the simulator on iPhone 11 Pro.
 
 1. Please download sample project from given github repository.
 2. Create your own repository and initiate master and develop branches. 
