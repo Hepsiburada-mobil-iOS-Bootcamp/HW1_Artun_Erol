@@ -121,6 +121,7 @@ class AlgoruthmManager: AlgorithmProtocol {
     }
     
     public func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        
         var newArray1 = nums1.filter{$0 != 0}
         let newArray2 = nums2.filter{$0 != 0}
         
@@ -172,9 +173,16 @@ class AlgoruthmManager: AlgorithmProtocol {
         
     }
     
-//    private func missingNumber(_ nums: [Int]) -> Int {
-//
-//    }
+    public func missingNumber(_ nums: [Int]) -> Int {
+        
+        for x in 0..<nums.count {
+            if !nums.contains(x) {
+                return x
+            }
+        }
+        
+        return 0
+    }
     
     
 }
